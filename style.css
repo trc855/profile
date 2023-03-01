@@ -84,8 +84,16 @@ h2 {
 }
 
 .header-font {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-weight: 600;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.subheader-font {
+  font-family: 'Mukta', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
 }
 
 a {
