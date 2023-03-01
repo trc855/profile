@@ -53,6 +53,10 @@ body {
   border-radius: 50%;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .button {
   margin-top: 30px;
   padding: 10px;
@@ -113,6 +117,11 @@ p {
   font-family: 'Space Mono', monospace;
 }
 
+li {
+  font-family: 'Space Mono', monospace;
+  text-align: left;
+}
+
 .list-inline {
   display: inline-block;
   list-style: none;
@@ -120,11 +129,11 @@ p {
   margin: 0px;
 }
 
-ul {
+.footer ul {
   display: block;
 }
 
-li {
+.footer li {
   display: inline;
   font-size: 40px;
 }
