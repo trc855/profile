@@ -137,3 +137,8 @@ li {
   display: inline;
   font-size: 40px;
 }
+
+.card-element img {
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgb(219, 219, 219);
+}
