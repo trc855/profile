@@ -3,12 +3,22 @@
   .container {
     width: 700px;
   }
+
+  .card-img {
+    width: 100%;
+    width: 600px;
+  }
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+  }
+
+  .card-img {
+    width: 100%;
+    width: 600px;
   }
 }
 
@@ -17,12 +27,22 @@
   .container {
     width: 500px;
   }
+
+  .card-img {
+    width: 100%;
+    max-width: 450px;
+  }
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+
+  .card-img {
+    width: 100%;
+    max-width: 250px;
   }
 }
 
@@ -105,14 +125,6 @@ a {
   font-family: 'Space Mono', monospace;
 }
 
-li a {
-  color: rgb(32, 91, 142);
-}
-
-li a:hover {
-  color: rgb(100, 100, 100);
-}
-
 p {
   font-family: 'Space Mono', monospace;
   max-width: 600px;
@@ -123,6 +135,14 @@ p {
 li {
   font-family: 'Space Mono', monospace;
   text-align: left;
+}
+
+li a {
+  color: rgb(32, 91, 142);
+}
+
+li a:hover {
+  color: rgb(100, 100, 100);
 }
 
 .list-inline {
